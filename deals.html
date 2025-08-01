@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF‑8" />
+  <meta name="viewport" content="width=device‑width, initial-scale=1.0" />
+  <title>Hero‑PC – Home</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png"
+    href="WhatsApp Image 2025-07-31 at 18.23.05_bf0939a8.jpg"/>
+</head>
+<body>
+  <header class="hero-header">
+    <h1 class="brand-glow">🚀 Hero‑PC 🚀</h1>
+    <p class="tagline">Your Ultimate Destination for Budget & Gaming PCs</p>
+    <nav>
+      <a href="index.html" class="nav‑link">Home</a>
+      <a href="gamers.html" class="nav‑link">Gamer’s Paradise</a>
+    </nav>
+  </header>
+
+  <section class="container">
+    <h2>Welcome to Hero‑PC</h2>
+    <p>Explore top offers on budget PCs and gaming rigs from Amazon and Flipkart. Deals from ₹10,000 to ₹1,00,000—trusted and curated just for you.</p>
+
+    <div class="ads">
+      <div class="ad-box">
+        <h3>🔥 Deal of the Month</h3>
+        <p>Ryzen 5 Gaming PC (16GB RAM, GTX 1660) under ₹53K</p>
+        <a href="https://www.amazon.in" target="_blank">Grab Now on Amazon →</a>
+      </div>
+      <div class="ad-box">
+        <h3>🎮 Gamer’s Paradise Sneak Peek</h3>
+        <p>Click below for the full list of gaming deals!</p>
+        <a href="gamers.html">Visit Gamer’s Paradise →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="credits">
+    <h2>👨‍💻 Developed By</h2>
+    <p><span class="main-dev">Gaurav Fartiyal</span> – Lead Programmer</p>
+    <p><span class="co-dev">Harsh Mehra</span> – Co‑Programmer</p>
+  </section>
+
+  <footer class="contact-section">
+    <h2>📞 Contact Us</h2>
+    <ul>
+      <li>Email: gauravfartiyal751@gmail.com</li>
+    </ul>
+    <p class="footer-note">Made with ❤️ by Hero‑PC</p>
+  </footer>
+
+  <!-- Cookie Consent -->
+  <div class="cookie-banner" id="cookie-banner">
+    <p>We use cookies to enhance your experience. By continuing, you accept our <a href="#">Cookie Policy</a>.</p>
+    <button id="cookie-accept">Accept</button>
+  </div>
+
+  <script>
+    const banner = document.getElementById('cookie-banner');
+    const btn = document.getElementById('cookie-accept');
+    if (!localStorage.getItem('cookieAccepted')) {
+      banner.style.display = 'flex';
+    }
+    btn.onclick = () => {
+      localStorage.setItem('cookieAccepted', 'true');
+      banner.style.display = 'none';
+    };
+  </script>
+</body>
+</html>
