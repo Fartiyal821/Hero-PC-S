@@ -1,239 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="google-site-verification" content="pD9ubpXlh3hcyuAhubvo56L1B3kIgpqnzDF3MOf-Kz8" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Hero-PC – Index</title>
-  <link rel="stylesheet" href="pc.css"/>
-
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet"/>
   <style>
     body {
       font-family: 'Orbitron', sans-serif;
       margin: 0;
-      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      background: #0d1117;
       color: #ffffff;
     }
     header {
-      background-color: #1e272e;
+      background-color: #000000;
       text-align: center;
-      padding: 40px 20px;
+      padding: 40px 20px 30px;
+      border-bottom: 2px solid #30363d;
+    }
+    .logo-container img {
+      max-width: 130px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #58a6ff;
+      margin-bottom: 20px;
     }
     .brand-glow {
-      font-size: 3rem;
-      color: #ffa502;
-      text-shadow: 0 0 15px #f39c12;
+      font-size: 2.8rem;
+      color: #1f6feb;
+      text-shadow: 0 0 10px #58a6ff;
+      margin: 0;
     }
     nav {
       margin-top: 20px;
     }
     .nav-link {
-      color: #dcdde1;
+      color: #dcdcdc;
       text-decoration: none;
       font-weight: bold;
-      margin: 0 15px;
-      font-size: 1.1rem;
+      margin: 0 12px;
+      font-size: 1rem;
     }
     .nav-link:hover {
-      color: #ff9f1a;
+      color: #58a6ff;
     }
     .section {
-      max-width: 1200px;
+      max-width: 1100px;
       margin: auto;
-      padding: 40px 30px;
-      background: rgba(255, 255, 255, 0.05);
-      border-radius: 15px;
+      padding: 30px 20px;
+      background: #161b22;
+      border-radius: 10px;
       margin-top: 30px;
     }
     .section h2 {
-      font-size: 2.2rem;
-      color: #00cec9;
+      font-size: 1.8rem;
+      color: #58a6ff;
       margin-bottom: 20px;
     }
-    .section p {
-      font-size: 1.1rem;
-      line-height: 1.8;
-      color: #ecf0f1;
+    .section p, .section a {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #e6edf3;
     }
     .highlight {
-      color: #ffb142;
+      color: #f0b90b;
       font-weight: bold;
     }
     .footer-note {
       text-align: center;
-      padding: 30px;
-      font-size: 0.95rem;
-      background: #1e272e;
-      color: #95a5a6;
+      padding: 25px;
+      background: #0d1117;
+      color: #8b949e;
+      font-size: 0.9rem;
     }
-    .cookie-banner {
-      display: none;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      background: rgba(52, 73, 94, 0.95);
-      color: #ecf0f1;
-      justify-content: space-between;
-      align-items: center;
-      padding: 15px 30px;
-      font-size: 0.95rem;
-      z-index: 999;
+    .deals-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
     }
-    .cookie-banner.show {
-      display: flex;
+    .deal-box {
+      background: #21262d;
+      padding: 20px;
+      border-radius: 10px;
+      transition: 0.3s;
+      border: 1px solid #30363d;
     }
-    .cookie-banner a {
-      color: #81ecec;
-      text-decoration: underline;
+    .deal-box:hover {
+      transform: scale(1.03);
+      border-color: #58a6ff;
     }
-    .cookie-banner button {
-      background: #00b894;
-      border: none;
-      color: white;
-      padding: 8px 15px;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 1rem;
+    .deal-box a {
+      color: #58a6ff;
+      text-decoration: none;
     }
     .feedback-section {
       max-width: 700px;
       margin: 50px auto;
-      padding: 40px;
-      background: rgba(0, 0, 0, 0.4);
+      padding: 30px;
+      background: #21262d;
       border-radius: 15px;
-      box-shadow: 0 0 10px #00cec9;
+      box-shadow: 0 0 10px #58a6ff;
     }
     .feedback-section h2 {
-      color: #00cec9;
-      font-size: 2rem;
+      color: #58a6ff;
+      font-size: 1.5rem;
       margin-bottom: 20px;
       text-align: center;
     }
     .feedback-section input,
     .feedback-section textarea {
       width: 100%;
-      padding: 12px;
+      padding: 10px;
       margin: 10px 0;
       border: none;
       border-radius: 8px;
-      background: rgba(255, 255, 255, 0.1);
+      background: #161b22;
       color: white;
       font-size: 1rem;
       outline: none;
-      box-shadow: 0 0 5px #00cec9;
+      border: 1px solid #30363d;
     }
     .feedback-section button {
-      background: #00cec9;
-      color: #1e272e;
+      background: #58a6ff;
+      color: #0d1117;
       font-weight: bold;
-      padding: 12px 20px;
+      padding: 10px 20px;
       border: none;
       border-radius: 8px;
-      font-size: 1.1rem;
+      font-size: 1rem;
       cursor: pointer;
       transition: 0.3s;
     }
     .feedback-section button:hover {
-      background: #00b894;
+      background: #1f6feb;
+    }
+    @media screen and (max-width: 600px) {
+      .brand-glow {
+        font-size: 2rem;
+      }
+      .logo-container img {
+        max-width: 100px;
+      }
     }
   </style>
-  <link rel="icon" type="image/png"
-    href="WhatsApp Image 2025-07-31 at 18.23.05_bf0939a8.jpg"/>
 </head>
 <body>
+
   <header>
+    <div class="logo-container">
+      <img src="WhatsApp Image 2025-07-31 at 18.23.05_bf0939a8.jpg" alt="Hero-PC Company Logo">
+    </div>
     <h1 class="brand-glow">🚀 Hero-PC – Index</h1>
     <nav>
       <a href="index.html" class="nav-link">🏠 Home</a>
       <a href="deals.html" class="nav-link">💻 Deals</a>
       <a href="gamers.html" class="nav-link">🎮 Gamer's Page</a>
+      <a href="components.html" class="nav-link">🧩 PC Components</a>
+      <a href="assistant.html" class="nav-link">🤖 A.I Assistant</a>
     </nav>
   </header>
 
   <section class="section">
-    <h2>🔥 Deal of the Month</h2>
-    <p><span class="highlight">• The Power Surge Rig</span>: Ryzen 7 + RTX 4070 + 32GB RAM + 1TB NVMe – A virtual beast under ₹85,000</p>
-    <p><span class="highlight">• Creator X Combo</span>: Intel i9 + 64GB RAM + Dual Display Support – Perfect for streaming and editing</p>
-    <p><span class="highlight">• GameStorm Lite</span>: Budget-friendly combo with Ryzen 5 + GTX 1650 + 16GB RAM under ₹45,000</p>
+    <h2>🔥 Best Gaming PC Deals</h2>
+    <div class="deals-grid">
+      <div class="deal-box"><a href="https://amzn.to/45GamingRig" target="_blank">⚡ Ryzen 7 + RTX 4070 – ₹84,990</a></div>
+      <div class="deal-box"><a href="https://amzn.to/creatorX" target="_blank">🎥 Intel i9 + 64GB RAM – Creator X</a></div>
+      <div class="deal-box"><a href="https://amzn.to/gamestormLite" target="_blank">🕹️ GameStorm Lite – Budget Beast</a></div>
+      <div class="deal-box"><a href="https://amzn.to/ultrablade" target="_blank">🔥 UltraBlade RTX 4060 – ₹72,999</a></div>
+      <div class="deal-box"><a href="https://amzn.to/shadowstrike" target="_blank">💻 ShadowStrike Ryzen 9 – Pro Gaming</a></div>
+      <div class="deal-box"><a href="https://amzn.to/redcorext" target="_blank">💥 RedCore XT – Intel i7 + 32GB RAM</a></div>
+      <div class="deal-box"><a href="https://amzn.to/titanMax" target="_blank">⚙️ Titan MAX RTX 4080 Combo</a></div>
+      <div class="deal-box"><a href="https://amzn.to/nitrohawk" target="_blank">🧊 NitroHawk – Ryzen 5 + RX 7600</a></div>
+      <div class="deal-box"><a href="https://amzn.to/azurestrike" target="_blank">🔵 AzureStrike Gaming Box</a></div>
+      <div class="deal-box"><a href="https://amzn.to/phantomedge" target="_blank">👻 PhantomEdge Intel Build</a></div>
+      <div class="deal-box"><a href="https://amzn.to/bluethorn" target="_blank">🔹 BlueThorn X – Stream Ready</a></div>
+      <div class="deal-box"><a href="https://amzn.to/ironrift" target="_blank">🧲 IronRift RTX 4060Ti</a></div>
+      <div class="deal-box"><a href="https://amzn.to/darknova" target="_blank">🌌 DarkNova Intel Core 12th Gen</a></div>
+      <div class="deal-box"><a href="https://amzn.to/volcanogear" target="_blank">🌋 VolcanoGear – Ryzen Pro Setup</a></div>
+      <div class="deal-box"><a href="https://amzn.to/strixmaster" target="_blank">🛡️ StrixMaster 1TB NVMe Gaming</a></div>
+    </div>
   </section>
 
   <section class="section">
-    <h2>🚀 Next-Level Features</h2>
-    <p>✅ <span class="highlight">Live Style Preview:</span> Real-world e-commerce styling for every deal.</p>
-    <p>✅ <span class="highlight">Virtual Inventory:</span> Browse 1000s of fantasy builds based on real trends.</p>
-    <p>✅ <span class="highlight">Ultra-Fast Browsing:</span> No ads. No lag. Just smooth experience.</p>
-    <p>✅ <span class="highlight">Upcoming:</span> Dark mode toggle, voice-guided nav, and AI help.</p>
-  </section>
-
-  <section class="section">
-    <h2>💬 What Users Are Saying</h2>
-    <p><span class="highlight">"Hero-PC feels like a gaming festival on my screen!"</span> – Arjun M.</p>
-    <p><span class="highlight">"Dream-building PCs without spending a rupee."</span> – Neha R.</p>
-    <p><span class="highlight">"Flipkart + Amazon should be like this!"</span> – Dev K.</p>
+    <h2>✨ Features You'll Love</h2>
+    <p>✅ <span class="highlight">Live Price Links:</span> Click & go directly to Amazon deals.</p>
+    <p>✅ <span class="highlight">Built For Everyone:</span> Fast, mobile-friendly design.</p>
+    <p>✅ <span class="highlight">Smart Suggestions:</span> Optimized for all PC budgets.</p>
   </section>
 
   <section class="feedback-section">
-    <h2>📝 We Value Your Feedback</h2>
+    <h2>📝 Your Feedback Matters</h2>
     <form onsubmit="submitFeedback(event)">
       <input type="text" id="name" placeholder="Your Name" required />
       <input type="email" id="email" placeholder="Your Email" required />
-      <textarea id="message" placeholder="Your Feedback..." rows="5" required></textarea>
+      <textarea id="message" placeholder="Your Feedback..." rows="4" required></textarea>
       <button type="submit">Send Feedback</button>
     </form>
   </section>
 
-  <div class="cookie-banner" id="cookieBanner">
-    <p>We use cookies to keep you updated with notifications and exclusive experiences. <a href="#">Learn More</a></p>
-    <button onclick="acceptCookies()">Accept</button>
-  </div>
-
   <div class="footer-note">
-    © 2025 Hero-PC | Explore budget & gaming rigs | Designed for gamers, coders & creators.
+    © 2025 Hero-PC | Trusted Gaming Machines | Flipkart + Amazon Combined
   </div>
 
   <script>
-    const banner = document.getElementById('cookieBanner');
-    function acceptCookies() {
-      localStorage.setItem('cookieAccepted', 'true');
-      banner.classList.remove('show');
-    }
-    if (!localStorage.getItem('cookieAccepted')) {
-      banner.classList.add('show');
-    }
-
-    function greetUser() {
-      let userName = localStorage.getItem('heroUser');
-      if (!userName) {
-        userName = prompt("👋 Welcome to Hero-PC! What's your name?");
-        if (userName) {
-          localStorage.setItem('heroUser', userName);
-        }
-      }
-      if (userName) {
-        const greetingBanner = document.createElement('div');
-        greetingBanner.textContent = `🎉 Welcome ${userName}! Explore the best PC deals at Hero-PC.`;
-        greetingBanner.style.background = '#00cec9';
-        greetingBanner.style.color = '#1e272e';
-        greetingBanner.style.padding = '15px';
-        greetingBanner.style.fontSize = '1.1rem';
-        greetingBanner.style.textAlign = 'center';
-        greetingBanner.style.fontWeight = 'bold';
-        greetingBanner.style.boxShadow = '0 2px 10px rgba(0,0,0,0.3)';
-        document.body.insertBefore(greetingBanner, document.body.firstChild);
-      }
-    }
-
-    greetUser();
-
     function submitFeedback(event) {
       event.preventDefault();
       const name = document.getElementById("name").value.trim();
-      const email = document.getElementById("email").value.trim();
-      const message = document.getElementById("message").value.trim();
-      alert(`Thank you, ${name}! Your feedback has been received.`);
-      document.querySelector("form").reset();
+      alert(`Thanks, ${name}! Your feedback is received.`);
+      event.target.reset();
     }
+
+    function greetUser() {
+      let name = localStorage.getItem('heroUser');
+      if (!name) {
+        name = prompt("Hi there! What's your name?");
+        if (name) localStorage.setItem('heroUser', name);
+      }
+      if (name) {
+        const greet = document.createElement('div');
+        greet.textContent = `🎉 Welcome ${name}! Explore epic deals on Hero-PC.`;
+        greet.style.background = '#58a6ff';
+        greet.style.color = '#0d1117';
+        greet.style.textAlign = 'center';
+        greet.style.padding = '12px';
+        greet.style.fontWeight = 'bold';
+        document.body.insertBefore(greet, document.body.firstChild);
+      }
+    }
+    greetUser();
   </script>
 </body>
 </html>
