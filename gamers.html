@@ -3,117 +3,172 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Hero-PC Deals</title>
-  <link rel="stylesheet" href="pc.css" />
+  <title>Hero-PC – 200+ Gaming Deals</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet"/>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
+      font-family: 'Orbitron', sans-serif;
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
-      color: #f1f1f1;
+      background: #0d1117;
+      color: #ffffff;
+      scroll-behavior: smooth;
     }
 
     header {
-      text-align: center;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
       padding: 40px 20px;
-      background-color: #1e272e;
+      text-align: center;
+      box-shadow: 0 2px 20px rgba(0,0,0,0.5);
+    }
+
+    .logo-container img {
+      width: 100px;
+      border-radius: 50%;
+      box-shadow: 0 0 20px #00ffae;
+      margin-bottom: 15px;
+      border: 2px solid #00ffae;
     }
 
     .brand-glow {
-      font-size: 3rem;
-      color: #ffa502;
-      text-shadow: 0 0 20px rgba(255,165,2,0.8);
+      font-size: 2.8rem;
+      color: #00ffae;
+      text-shadow: 0 0 15px #00ffae;
+      margin: 10px 0;
     }
 
     nav {
-      margin-top: 10px;
+      margin-top: 15px;
     }
 
     .nav-link {
-      color: #dcdde1;
-      margin: 0 15px;
+      color: #dcdcdc;
       text-decoration: none;
+      margin: 0 12px;
       font-weight: bold;
+      font-size: 1rem;
+      transition: 0.3s;
     }
 
     .nav-link:hover {
-      color: #ff9f1a;
+      color: #00ffea;
+      text-shadow: 0 0 10px #00ffea;
     }
 
-    .offer-section {
+    .section {
       max-width: 1200px;
       margin: 40px auto;
-      padding: 20px 30px;
-      background: rgba(255,255,255,0.05);
-      border-radius: 12px;
+      padding: 30px 20px;
+      background: #161b22;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(88, 166, 255, 0.1);
     }
 
-    .offer-section h2 {
-      color: #00cec9;
-      text-align: center;
+    .section h2 {
+      font-size: 1.9rem;
+      color: #00ffae;
       margin-bottom: 30px;
+      text-align: center;
+      text-shadow: 0 0 12px #00ffae;
     }
 
-    .offer-list {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
+    .deals-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
     }
 
-    .offer-list a {
-      color: #81ecec;
+    .deal-box {
+      background: #21262d;
+      padding: 18px;
+      border-radius: 12px;
+      text-align: center;
+      border: 1px solid #30363d;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 8px rgba(0, 255, 174, 0.1);
+    }
+
+    .deal-box:hover {
+      transform: scale(1.03);
+      border-color: #00ffae;
+      box-shadow: 0 0 18px #00ffae88;
+    }
+
+    .deal-box a {
+      color: #00ffae;
       text-decoration: none;
-      background-color: rgba(0, 0, 0, 0.3);
-      padding: 15px;
-      border-radius: 8px;
-      transition: background 0.3s ease, color 0.3s ease;
-      font-size: 1.05rem;
-    }
-
-    .offer-list a:hover {
-      background-color: #00cec9;
-      color: #1e272e;
+      font-weight: bold;
+      font-size: 1rem;
+      display: block;
     }
 
     .footer-note {
       text-align: center;
-      padding: 30px;
+      padding: 25px;
+      background: #0d1117;
+      color: #8b949e;
       font-size: 0.9rem;
-      color: #95a5a6;
-      background: #1e272e;
+      border-top: 1px solid #30363d;
+    }
+
+    @media screen and (max-width: 600px) {
+      .brand-glow {
+        font-size: 2rem;
+      }
     }
   </style>
-  <link rel="icon" type="image/png"
-    href="WhatsApp Image 2025-07-31 at 18.23.05_bf0939a8.jpg"/>
 </head>
 <body>
+
   <header>
-    <h1 class="brand-glow">🚀 Hero-PC – Deals</h1>
+    <div class="logo-container">
+      <img src="WhatsApp Image 2025-07-31 at 18.23.05_bf0939a8.jpg" alt="Hero-PC Logo">
+    </div>
+    <h1 class="brand-glow">🚀 Hero-PC – 200+ Gaming Deals</h1>
     <nav>
       <a href="index.html" class="nav-link">🏠 Home</a>
+      <a href="deals.html" class="nav-link">💻 Deals</a>
+      <a href="gamers.html" class="nav-link">🎮 Gamer's Paradise</a>
+       <a href="components.html" class="nav-link">🧩 PC Components</a>
+       <a href="assistant.html" class="nav-link">🤖 A.I Assistant</a>
     </nav>
   </header>
 
-  <section class="offer-section">
-    <h2>🔥 Top Gaming PC Offers</h2>
-    <div class="offer-list">
-      <a href="https://www.amazon.in/dp/B08L8KC1J7" target="_blank" rel="noopener noreferrer">
-        🖥️ Ryzen 5 Gaming PC – 16GB RAM + 512GB SSD – ₹42,999 [Amazon]
-      </a>
-      <a href="https://www.flipkart.com/p/itmf4jcfjv7ndztx" target="_blank" rel="noopener noreferrer">
-        🎮 Intel i5 + GTX 1650 + 1TB HDD Combo – ₹49,999 [Flipkart]
-      </a>
-      <a href="https://www.amazon.in/dp/B0B3T3M3KD" target="_blank" rel="noopener noreferrer">
-        🧑‍💻 Creator PC – Intel i7 + 32GB + RTX 3060 – ₹82,000 [Amazon]
-      </a>
-      <a href="https://www.flipkart.com/p/itmfghjbghkchktq" target="_blank" rel="noopener noreferrer">
-        📺 Streamer’s PC – Ryzen 9 + 64GB + Liquid Cooling – ₹1,20,000 [Flipkart]
-      </a>
+  <section class="section">
+    <h2>🔥 Explore 200+ Hot Gaming PC Offers</h2>
+    <div class="deals-grid" id="deals-container">
+      <!-- JavaScript will generate 200 deals here -->
     </div>
   </section>
 
   <div class="footer-note">
-    © 2025 Hero-PC | Links redirect to actual product pages on Amazon/Flipkart.
+    © 2025 Hero-PC | Powered by Amazon + Flipkart | Designed with 💚 by Gaurav Fartiyal & Harsh M
   </div>
+
+  <script>
+    const dealsContainer = document.getElementById('deals-container');
+
+    for (let i = 1; i <= 200; i++) {
+      const price = Math.floor(Math.random() * 70000) + 30000;
+      const link = `https://amazon.in/deal${i}`;
+      const productName = `💻 Deal #${i}: Ryzen + RTX – ₹${price}`;
+
+      const dealBox = document.createElement('div');
+      dealBox.className = 'deal-box';
+
+      const a = document.createElement('a');
+      a.href = link;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.textContent = productName;
+
+      dealBox.appendChild(a);
+      dealsContainer.appendChild(dealBox);
+    }
+  </script>
+
 </body>
 </html>
