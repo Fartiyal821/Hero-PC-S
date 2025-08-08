@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Home Page -->
   <url>
-    <loc>https://fartiyal821.github.io/Hero-PC-S/index.html</loc>
-    <lastmod>2025-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://fartiyal821.github.io/Hero-PC-S/</loc>
+    <priority>1.00</priority>
   </url>
 
+  <!-- Gamers Page -->
   <url>
     <loc>https://fartiyal821.github.io/Hero-PC-S/gamers.html</loc>
-    <lastmod>2025-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.90</priority>
   </url>
 
+  <!-- Deals Page -->
   <url>
     <loc>https://fartiyal821.github.io/Hero-PC-S/deals.html</loc>
-    <lastmod>2025-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.90</priority>
   </url>
 
-  <url>
-    <loc>https://fartiyal821.github.io/Hero-PC-S/assistant.html</loc>
-    <lastmod>2025-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
+  <!-- Components Page -->
   <url>
     <loc>https://fartiyal821.github.io/Hero-PC-S/components.html</loc>
-    <lastmod>2025-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- AI Assistant Page -->
+  <url>
+    <loc>https://fartiyal821.github.io/Hero-PC-S/assistant.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- News Page -->
+  <url>
+    <loc>https://fartiyal821.github.io/Hero-PC-S/news.html</loc>
+    <priority>0.80</priority>
   </url>
 
 </urlset>
