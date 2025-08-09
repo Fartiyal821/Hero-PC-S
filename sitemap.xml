@@ -1,40 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Home Page -->
-  <url>
-    <loc>https://fartiyal821.github.io/Hero-PC-S/</loc>
-    <priority>1.00</priority>
-  </url>
-
-  <!-- Gamers Page -->
-  <url>
-    <loc>https://fartiyal821.github.io/Hero-PC-S/gamers.html</loc>
-    <priority>0.90</priority>
-  </url>
-
-  <!-- Deals Page -->
-  <url>
-    <loc>https://fartiyal821.github.io/Hero-PC-S/deals.html</loc>
-    <priority>0.90</priority>
-  </url>
-
-  <!-- Components Page -->
-  <url>
-    <loc>https://fartiyal821.github.io/Hero-PC-S/components.html</loc>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- AI Assistant Page -->
-  <url>
-    <loc>https://fartiyal821.github.io/Hero-PC-S/assistant.html</loc>
-    <priority>0.80</priority>
-  </url>
-
-  <!-- News Page -->
-  <url>
-    <loc>https://fartiyal821.github.io/Hero-PC-S/news.html</loc>
-    <priority>0.80</priority>
-  </url>
-
-</urlset>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hero-PC Site Sitemap</title>
+</head>
+<body>
+  <h1>Hero-PC Site Sitemap</h1>
+  <ul>
+    <li><a href="https://fartiyal821.github.io/Hero-PC-S/">Home</a></li>
+    <li><a href="https://fartiyal821.github.io/Hero-PC-S/Deals">Deals</a></li>
+    <li><a href="https://fartiyal821.github.io/Hero-PC-S/Gamers">Gamers</a></li>
+    <li><a href="https://fartiyal821.github.io/Hero-PC-S/PC%20Components">PC Components</a></li>
+    <li><a href="https://fartiyal821.github.io/Hero-PC-S/A.I%20Assistant">A.I Assistant</a></li>
+    <li><a href="https://fartiyal821.github.io/Hero-PC-S/Contact">Contact</a></li>
+    <li><a href="https://fartiyal821.github.io/Hero-PC-S/News">News</a></li>
+  </ul>
+</body>
+</html>
