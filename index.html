@@ -1,203 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8208662455546800"
-     crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hero-PC – Gaming Deals & Components</title>
   <meta name="description" content="Hero-PC: Best Gaming PC Deals, Components, and Smart Recommendations from Flipkart and Amazon." />
   <link rel="icon" type="image/jpeg" href="WhatsApp Image 2025-07-31 at 18.23.05_bf0939a8.jpg" />
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+
+  <!-- AdSense Script (load only once) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8208662455546800" crossorigin="anonymous"></script>
+
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      font-family: 'Orbitron', sans-serif;
-      background: #0d1117;
-      color: #e6edf3;
-      line-height: 1.6;
-    }
-
-    header {
-      background: #000;
-      padding: 30px 20px;
-      text-align: center;
-      border-bottom: 2px solid #30363d;
-    }
-
-    header img {
-      max-width: 120px;
-      border-radius: 10px;
-      box-shadow: 0 0 12px #58a6ff;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      color: #1f6feb;
-      margin-top: 10px;
-      text-shadow: 0 0 8px #58a6ff;
-    }
-
-    nav {
-      margin-top: 20px;
-    }
-
-    nav a {
-      margin: 0 10px;
-      color: #c9d1d9;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      color: #58a6ff;
-    }
-
-    .section {
-      max-width: 1200px;
-      margin: 30px auto;
-      padding: 20px;
-      background: #161b22;
-      border-radius: 12px;
-    }
-
-    .section h2 {
-      color: #58a6ff;
-      font-size: 1.8rem;
-      margin-bottom: 20px;
-    }
-
-    .deals-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 20px;
-    }
-
-    .deal-box {
-      background: #21262d;
-      padding: 15px;
-      border-radius: 10px;
-      transition: 0.3s;
-      border: 1px solid #30363d;
-    }
-
-    .deal-box:hover {
-      transform: scale(1.05);
-      border-color: #58a6ff;
-    }
-
-    .deal-box a {
-      color: #58a6ff;
-      text-decoration: none;
-      font-size: 1rem;
-    }
-
-    .features p {
-      margin-bottom: 10px;
-    }
-
-    .highlight {
-      color: #f0b90b;
-      font-weight: bold;
-    }
-
-    .feedback-section {
-      background: #21262d;
-      padding: 25px;
-      border-radius: 10px;
-      margin-top: 40px;
-      box-shadow: 0 0 10px #58a6ff;
-    }
-
-    .feedback-section input,
-    .feedback-section textarea {
-      width: 100%;
-      padding: 10px;
-      background: #161b22;
-      color: white;
-      border: 1px solid #30363d;
-      border-radius: 8px;
-      margin: 10px 0;
-    }
-
-    .feedback-section button {
-      padding: 10px 20px;
-      background: #58a6ff;
-      color: #0d1117;
-      border: none;
-      border-radius: 8px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-
-    .feedback-section button:hover {
-      background: #1f6feb;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      color: #8b949e;
-      font-size: 0.9rem;
-      background: #0d1117;
-    }
-
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Orbitron', sans-serif; background: #0d1117; color: #e6edf3; line-height: 1.6; }
+    header { background: #000; padding: 30px 20px; text-align: center; border-bottom: 2px solid #30363d; }
+    header img { max-width: 120px; border-radius: 10px; box-shadow: 0 0 12px #58a6ff; }
+    h1 { font-size: 2.5rem; color: #1f6feb; margin-top: 10px; text-shadow: 0 0 8px #58a6ff; }
+    nav { margin-top: 20px; }
+    nav a { margin: 0 10px; color: #c9d1d9; text-decoration: none; font-weight: bold; }
+    nav a:hover { color: #58a6ff; }
+    .section { max-width: 1200px; margin: 30px auto; padding: 20px; background: #161b22; border-radius: 12px; }
+    .section h2 { color: #58a6ff; font-size: 1.8rem; margin-bottom: 20px; }
+    .deals-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+    .deal-box { background: #21262d; padding: 15px; border-radius: 10px; transition: 0.3s; border: 1px solid #30363d; }
+    .deal-box:hover { transform: scale(1.05); border-color: #58a6ff; }
+    .deal-box a { color: #58a6ff; text-decoration: none; font-size: 1rem; }
+    .features p { margin-bottom: 10px; }
+    .highlight { color: #f0b90b; font-weight: bold; }
+    .feedback-section { background: #21262d; padding: 25px; border-radius: 10px; margin-top: 40px; box-shadow: 0 0 10px #58a6ff; }
+    .feedback-section input, .feedback-section textarea { width: 100%; padding: 10px; background: #161b22; color: white; border: 1px solid #30363d; border-radius: 8px; margin: 10px 0; }
+    .feedback-section button { padding: 10px 20px; background: #58a6ff; color: #0d1117; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; }
+    .feedback-section button:hover { background: #1f6feb; }
+    footer { text-align: center; padding: 20px; color: #8b949e; font-size: 0.9rem; background: #0d1117; }
+    .ad-container { margin: 20px auto; background: #111; min-height: 90px; max-width: 728px; border: 1px solid #333; display: flex; align-items: center; justify-content: center; }
+    .ad-placeholder { color: gray; font-size: 14px; }
     @media (max-width: 600px) {
-      h1 {
-        font-size: 2rem;
-      }
-
-      nav {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-
-      nav a {
-        margin: 5px;
-      }
+      h1 { font-size: 2rem; }
+      nav { display: flex; flex-wrap: wrap; justify-content: center; }
+      nav a { margin: 5px; }
     }
   </style>
 </head>
 <body>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8208662455546800"
-     crossorigin="anonymous"></script>
-<!-- Fartiyal -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8208662455546800"
-     data-ad-slot="4748982887"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8208662455546800"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="fluid"
-     data-ad-layout-key="-gw-3+1f-3d+2z"
-     data-ad-client="ca-pub-8208662455546800"
-     data-ad-slot="8496656201"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8208662455546800"
-     crossorigin="anonymous"></script>
-<!-- Fartiya -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-8208662455546800"
-     data-ad-slot="5318176131"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
   <header>
     <img src="WhatsApp Image 2025-07-31 at 18.23.05_bf0939a8.jpg" alt="Hero-PC Logo">
@@ -213,13 +58,29 @@
     </nav>
   </header>
 
+  <!-- Ad Unit -->
+  <div class="ad-container">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-8208662455546800"
+         data-ad-slot="4748982887"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+      try {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      } catch(e) {
+        document.querySelector('.ad-container').innerHTML = '<div class="ad-placeholder">Ad failed to load</div>';
+      }
+    </script>
+  </div>
+
   <main>
     <section class="section">
       <h2>🔥 Top Gaming PC Deals</h2>
       <div class="deals-grid">
         <div class="deal-box"><a href="#">⚡ Ryzen 7 + RTX 4070 – ₹84,990</a></div>
         <div class="deal-box"><a href="#">🎥 Intel i9 + 64GB RAM – ₹1,24,999</a></div>
-        <!-- More deals can be added here -->
       </div>
     </section>
 
@@ -229,6 +90,23 @@
       <p>✅ <span class="highlight">Universal Compatibility:</span> PC builds for every gamer & creator.</p>
       <p>✅ <span class="highlight">Responsive & Secure:</span> Mobile-friendly and reliable UI.</p>
     </section>
+
+    <!-- Another Ad Unit -->
+    <div class="ad-container">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-8208662455546800"
+           data-ad-slot="8496656201"
+           data-ad-format="fluid"
+           data-ad-layout-key="-gw-3+1f-3d+2z"></ins>
+      <script>
+        try {
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        } catch(e) {
+          document.querySelectorAll('.ad-container')[1].innerHTML = '<div class="ad-placeholder">Ad failed to load</div>';
+        }
+      </script>
+    </div>
 
     <section class="section feedback-section" id="contact">
       <h2>📝 Contact & Feedback</h2>
@@ -256,7 +134,3 @@
 
 </body>
 </html>
-
-
-
-
