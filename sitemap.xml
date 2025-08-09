@@ -1,19 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Hero-PC Site Sitemap</title>
-</head>
-<body>
-  <h1>Hero-PC Site Sitemap</h1>
-  <ul>
-    <li><a href="https://fartiyal821.github.io/Hero-PC-S/">Home</a></li>
-    <li><a href="https://fartiyal821.github.io/Hero-PC-S/Deals">Deals</a></li>
-    <li><a href="https://fartiyal821.github.io/Hero-PC-S/Gamers">Gamers</a></li>
-    <li><a href="https://fartiyal821.github.io/Hero-PC-S/PC%20Components">PC Components</a></li>
-    <li><a href="https://fartiyal821.github.io/Hero-PC-S/A.I%20Assistant">A.I Assistant</a></li>
-    <li><a href="https://fartiyal821.github.io/Hero-PC-S/Contact">Contact</a></li>
-    <li><a href="https://fartiyal821.github.io/Hero-PC-S/News">News</a></li>
-  </ul>
-</body>
-</html>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://fartiyal821.github.io/Hero-PC-S/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://fartiyal821.github.io/Hero-PC-S/deals</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://fartiyal821.github.io/Hero-PC-S/gamers</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://fartiyal821.github.io/Hero-PC-S/pc-components</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://fartiyal821.github.io/Hero-PC-S/ai-assistant</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://fartiyal821.github.io/Hero-PC-S/contact</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://fartiyal821.github.io/Hero-PC-S/news</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
