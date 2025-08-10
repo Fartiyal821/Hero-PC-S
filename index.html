@@ -3,32 +3,66 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hero-PC-S</title>
+  <title>Hero-PC – Gaming Deals & Components</title>
+  <meta name="description" content="Hero-PC: Best Gaming PC Deals, Components, and Smart Recommendations from Flipkart and Amazon." />
+  
+  <!-- Updated Icon -->
+  <link rel="icon" type="image/jpeg" href="WhatsApp Image 2025-07-31 at 18.23.05_bf0939a8.jpg" />
 
-  <!-- Google AdSense -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+  
+  <!-- Google AdSense Script -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js?client=ca-pub-8208662455546800"
        crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="style.css">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Orbitron', sans-serif; background: #0d1117; color: #e6edf3; line-height: 1.6; }
+    header { background: #000; padding: 30px 20px; text-align: center; border-bottom: 2px solid #30363d; }
+    header img { max-width: 120px; border-radius: 10px; box-shadow: 0 0 12px #58a6ff; }
+    h1 { font-size: 2.5rem; color: #1f6feb; margin-top: 10px; text-shadow: 0 0 8px #58a6ff; }
+    nav { margin-top: 20px; }
+    nav a { margin: 0 10px; color: #c9d1d9; text-decoration: none; font-weight: bold; }
+    nav a:hover { color: #58a6ff; }
+    .section { max-width: 1200px; margin: 30px auto; padding: 20px; background: #161b22; border-radius: 12px; }
+    .section h2 { color: #58a6ff; font-size: 1.8rem; margin-bottom: 20px; }
+    .deals-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+    .deal-box { background: #21262d; padding: 15px; border-radius: 10px; transition: 0.3s; border: 1px solid #30363d; }
+    .deal-box:hover { transform: scale(1.05); border-color: #58a6ff; }
+    .deal-box a { color: #58a6ff; text-decoration: none; font-size: 1rem; }
+    .features p { margin-bottom: 10px; }
+    .highlight { color: #f0b90b; font-weight: bold; }
+    .feedback-section { background: #21262d; padding: 25px; border-radius: 10px; margin-top: 40px; box-shadow: 0 0 10px #58a6ff; }
+    .feedback-section input, .feedback-section textarea { width: 100%; padding: 10px; background: #161b22; color: white; border: 1px solid #30363d; border-radius: 8px; margin: 10px 0; }
+    .feedback-section button { padding: 10px 20px; background: #58a6ff; color: #0d1117; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; }
+    .feedback-section button:hover { background: #1f6feb; }
+    footer { text-align: center; padding: 20px; color: #8b949e; font-size: 0.9rem; background: #0d1117; }
+    .ad-container { text-align: center; margin: 20px 0; }
+    @media (max-width: 600px) {
+      h1 { font-size: 2rem; }
+      nav { display: flex; flex-wrap: wrap; justify-content: center; }
+      nav a { margin: 5px; }
+    }
+  </style>
 </head>
 <body>
 
   <header>
-    <h1>Hero-PC-S</h1>
+    <img src="WhatsApp Image 2025-07-31 at 18.23.05_bf0939a8.jpg" alt="Hero-PC Logo">
+    <h1>🚀 Hero-PC</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="deals.html">Deals</a>
+      <a href="gamers.html">Gamers</a>
+      <a href="components.html">PC Components</a>
+      <a href="assistant.html">A.I Assistant</a>
+      <a href="#contact">Contact</a>
+      <a href="news.html">News</a>
+    </nav>
   </header>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="gamers.html">Gamer’s Paradise</a>
-    <a href="deals.html">Deals</a>
-    <a href="components.html">PC Components</a>
-    <a href="assistant.html">AI Assistant</a>
-    <a href="contact.html">Contact</a>
-    <a href="news.html">News</a>
-  </nav>
-
-  <!-- AdSense Ad Block -->
-  <div style="text-align:center; margin:20px 0;">
+  <!-- Google Ad Block -->
+  <div class="ad-container">
     <ins class="adsbygoogle"
          style="display:block"
          data-ad-client="ca-pub-8208662455546800"
@@ -41,15 +75,44 @@
   </div>
 
   <main>
-    <section>
-      <h2>Welcome to Hero-PC-S</h2>
-      <p>Find the best PC and gaming deals from Flipkart and Amazon, updated regularly.</p>
+    <section class="section">
+      <h2>🔥 Top Gaming PC Deals</h2>
+      <div class="deals-grid">
+        <div class="deal-box"><a href="#">⚡ Ryzen 7 + RTX 4070 – ₹84,990</a></div>
+        <div class="deal-box"><a href="#">🎥 Intel i9 + 64GB RAM – ₹1,24,999</a></div>
+      </div>
+    </section>
+
+    <section class="section features">
+      <h2>✨ Why Choose Hero-PC?</h2>
+      <p>✅ <span class="highlight">Live Price Links:</span> Fast access to Flipkart + Amazon deals.</p>
+      <p>✅ <span class="highlight">Universal Compatibility:</span> PC builds for every gamer & creator.</p>
+      <p>✅ <span class="highlight">Responsive & Secure:</span> Mobile-friendly and reliable UI.</p>
+    </section>
+
+    <section class="section feedback-section" id="contact">
+      <h2>📝 Contact & Feedback</h2>
+      <form onsubmit="submitFeedback(event)">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message..." rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Hero-PC-S</p>
+    © 2025 Hero-PC | Premium Gaming & Creator Machines | Flipkart + Amazon Combined
   </footer>
+
+  <script>
+    function submitFeedback(event) {
+      event.preventDefault();
+      const name = document.getElementById('name').value;
+      alert(`Thanks, ${name}! Your message has been received.`);
+      event.target.reset();
+    }
+  </script>
 
 </body>
 </html>
